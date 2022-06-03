@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* mian - Prints a hexadecimal string
+* main - Prints a hexadecimal string
 *
 *Return: Always (Success)
 */
