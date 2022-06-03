@@ -4,6 +4,7 @@
 * 
 *Return: Always (Success)
 */
+int c, i, k;
 int main(void)
 {
 int c, i, k;
