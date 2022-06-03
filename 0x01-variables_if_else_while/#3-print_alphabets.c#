@@ -10,7 +10,6 @@ char c;
 for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
- 
 }
 for (c = 'A'; c <= 'Z'; c++)
 {
@@ -19,4 +18,4 @@ putchar(c);
 putchar('\n');
 return (0);
 }
-3-print_alphets.c
+3-print_alphabets.c
