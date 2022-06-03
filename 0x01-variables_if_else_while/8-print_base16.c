@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
 * mian - Prints a hexadecimal string
-* 
+*
 *Return: Always (Success)
 */
 int main(void)
 {
 char c;
-for (c = 'c'; c <= '9'; c++)
+for (c = '0'; c <= '9'; c++)
 {
 putchar(c);
 }
