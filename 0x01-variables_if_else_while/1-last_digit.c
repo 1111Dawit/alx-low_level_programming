@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#inlcude <stdio.h>
+#include <stdio.h>
 /**
 * main - prints a text according number
 *
