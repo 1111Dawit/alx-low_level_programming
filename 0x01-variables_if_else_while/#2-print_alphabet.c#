@@ -9,7 +9,7 @@ int main(void)
 char c;
 for(c='a';c <='z';c++)
 putchar(c);
-putchar(c);
+putchar('\n');
 return (0);
 }
-2-print_alphabet,c
+2-print_alphabet.c
