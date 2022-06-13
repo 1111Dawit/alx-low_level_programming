@@ -4,7 +4,7 @@
 * @s: input
 * Return: Always 0 (Success)
 */
-int_atoi(char *s)
+int _atoi(char *s)
 {
 return (0);
 }
