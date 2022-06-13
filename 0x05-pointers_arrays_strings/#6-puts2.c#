@@ -7,16 +7,14 @@
 */
 void puts2(char *str)
 {
-int i;
-int j = 0;
-while (str[j] != '0')
+int i =0;
+for (; str[i] != '\0'; i++)
 {
-j++;
-}
-for(i = 0; i < j; i += 2)
-{
+if ((i % 2) == 0)
 putchar(str[i]);
+else
+continue;
 }
 putchar('\n');
 }
-6-puts2.cyes
+6-puts2.c
