@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * char *_strcpy - a function that copies the string pointed to by src
-* @ desti: copy to 
+* @ dest: copy to
 * @src: copy from
 * Return: string
 */
@@ -12,6 +12,5 @@ for (; src[i] != '\0'; i++)
 {
 dest[i] = src[i];
 }
-dest[i++] = '0';
 return (dest);
 }
