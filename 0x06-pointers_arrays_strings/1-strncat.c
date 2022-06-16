@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 * _strncat -concatenate two strings
-* @dest: The strings to be appended upon.
+* @dest: The strings to be appended upon
+* @src: The string to be appended to dest
 * @n: The number of bytes from src to be appended to dest.
 */
 char *_strncat(char *dest, char *src, int n)
