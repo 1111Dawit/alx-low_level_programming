@@ -15,6 +15,6 @@ p = &n;
 * you are not allowed to code anything else thatn this line of code
 */
 *(p + s) = 98;
-printf("a[2] = %\n", a[2]);
+printf("a[2] = %d\n", a[2]);
 return (0);
 }
