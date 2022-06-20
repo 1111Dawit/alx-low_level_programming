@@ -4,8 +4,10 @@
 * @s: pointer to change
 * @to: string to change pointer to
 *
+* Return: Nothing.
 */
 void set_string(char **s, char *to)
 {
 *s = to;
+return;
 }
