@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
 * swap_int - a function that swaps the values of two intigers
-* @a: input 1
-* @b: input 2
+* @dest: copies memory area
+* @src: memory area to copy
+* @n: number of bytes to copy
 * Return: intigers
 */
-void swap_int(int *a, int *b)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int n;
-n = *a;
-*a = *b;
-*b = n;
+unsigned int i;
+for (i = 0; i < n; i++)
+{
+*(dest + i) = *(src + i);
+}
+return (dest);
 }
