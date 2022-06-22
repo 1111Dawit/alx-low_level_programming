@@ -4,13 +4,13 @@
 * @s: input
 * Return: Always 0 (Success)
 */
-void _puts_recursions(char *s)
+void _puts_recursion(char *s)
 {
 if (*s == '\0')
 putchar('\n');
 else
 {
 putchar(*s);
-_puts_recursions(s + 1);
+_puts_recursion(s + 1);
 }
 }
