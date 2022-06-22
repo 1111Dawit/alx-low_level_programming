@@ -2,7 +2,7 @@
 /**
 * _puts_recursion
 * @s: input
-* @s: input
+* Return: Always 0 (Success)
 */
 void _puts_recursions(char *s)
 {
@@ -11,6 +11,6 @@ putchar('\n');
 else
 {
 putchar(*s);
-puts_recursion(s + 1);
+_puts_recursions(s + 1);
 }
 }
