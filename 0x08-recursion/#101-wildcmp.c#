@@ -8,8 +8,7 @@ int wildcmp(char *s1, char *s2);
 * @str: The string to be measured
 * Return: The length.
 */
-int strlen_no_wilds(char *str)
-{
+int strlen_no_wilds(char *str){
   int len = 0, index = 0;
   if (*(str + index))
     {
@@ -68,4 +67,3 @@ int wildcmp(char *s1, char *s2)
     return (0);
   return (wildcmp(++s1, ++s2));
 }
-101-wildcmp.c
