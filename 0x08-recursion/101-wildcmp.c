@@ -16,11 +16,12 @@ if (*(str + index))
 if (*str != '*')
 len++;
 index++;
-len += strlen_no_wilds(str + index);      
+len += strlen_no_wilds(str + index);
 }
 return (len);
 }
 /**
+* postfix_match - checks if a string str matches the postfix
 * iterate_wild - Iteraates through a string located at a wildcard
 * until it points to a non-wild character.
 * @wildstr: The string to be iterated through.
