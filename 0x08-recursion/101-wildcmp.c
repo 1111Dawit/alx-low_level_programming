@@ -24,7 +24,7 @@ return (len);
 * postfix_match - Checks if a stirng str matches the postfix
 * iterate_wild - Iterates through a string located at a wildcard
 * until it points to a non-wild character.
-* @wild_str: The string to be iterated through.
+* @wildstr: The string to be iterated through.
 */
 void iterate_wild(char **wildstr)
 {
