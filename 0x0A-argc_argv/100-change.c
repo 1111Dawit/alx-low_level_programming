@@ -36,3 +36,4 @@ break;
 printf("%d\n", n);
 return (0);
 }
+100-change.c
