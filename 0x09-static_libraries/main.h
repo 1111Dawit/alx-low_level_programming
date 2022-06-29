@@ -1,5 +1,5 @@
 #include "stdio.h"
-int mai(void)
+int main(void)
 {
 puts("\" This is my program");
 return (0);
