@@ -25,7 +25,7 @@ if (dog->name == NULL)
 free(dog);
 return (NULL);
 }
-for (i = 0; i < n1; i++)
+for (i = 0; i < nl; i++)
 dog->name[i] = name[i];
 dog->age = age;
 for (ol = 0; owner[ol]; ol++)
