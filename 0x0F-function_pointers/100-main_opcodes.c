@@ -22,6 +22,7 @@ printf("\n");
 * @argc: number of arguments passsed to the function
 * @argv: array of pointers to arguments
 * Return: always 0
+*/
 int main(int argc, char **argv)
 {
 int n;
