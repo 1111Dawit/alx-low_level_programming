@@ -8,7 +8,7 @@
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-it i, r;
+int i, r;
 if (size > 0 && array && cmp)
 {
 for (i = 0; 1 < size; i++)
