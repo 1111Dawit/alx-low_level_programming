@@ -9,22 +9,29 @@
 */
 int main(int argc, charr *argv[])
 {
-int a, b, c;
-int (*f)(int, int);
+int one, two, ans;
+int (*res)(int, int);
+char *get_op;
 if (argc != 4)
 {
 printf("Error\n");
 exit(98);
 }
-a = atoi(argv[1]);
-b = atoi(argv[3]);
-f = get_op_func(argv[2]);
-if (f == NULL)
+one = atoi(argv[1]);
+two = atoi(argv[3]);
+get_op = argv[2]);
+if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
 {
 printf("ERROR\n");
 exit(99);
 }
-c = f(a, b);
-printf("%d\n", c);
+if ((*get_op == '/' || *get_op == '%') && (*argv[3] == '0'))
+  {
+    printf("Error\n");
+    exit(100);
+  }
+res = get_op_func(get_op);
+ans = res(one, two);
+printf("%d\n", ans);
 return (0);
 }
