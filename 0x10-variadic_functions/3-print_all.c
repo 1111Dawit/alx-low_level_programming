@@ -1,6 +1,6 @@
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-#inlcude "variadic_functions.h"
 /**
 * print_all - Entry point
 * c = char, i = int, f = float, s = char
@@ -34,7 +34,7 @@ case 'f':
 printf("%f%s", va_arg(valist, double), sep);
 break;
 case 's':
-str = v_arg(valist, char *);
+str = va_arg(valist, char *);
 if (str == NULL)
 str = "(nil)";
 printf("%s%s", str, sep);
