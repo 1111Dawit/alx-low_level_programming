@@ -27,6 +27,7 @@ return (new);
 }
 temp = *head;
 while (temp-> != NULL)
+temp = temp->next;
 temp->next = new;
 return (new);
 }
