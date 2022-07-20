@@ -53,5 +53,3 @@ size_t print_listint_safe(const listint_t *head)
   free(list);
   return (num);
 }
-
-101-print_list_safe.c
