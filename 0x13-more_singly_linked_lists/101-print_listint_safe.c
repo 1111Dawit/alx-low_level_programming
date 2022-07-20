@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-#inlcude <stdlib.h>
+#include <stdlib.h>
 /**
  * -r - reallocates memory for an array of pointers
  * to the nodes in a linked list
