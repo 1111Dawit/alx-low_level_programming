@@ -1,5 +1,4 @@
 #include "lists.h"
-#inlcue <stdlib.h>
 /**
 * pop-listint - Delete the end
 * @head: head
@@ -7,13 +6,13 @@
 */
 int pop_listint(listint_t **head)
 {
-int nodedata;
-listint_t *new;
-if (*head == NULL)
+listint_t *first;
+int n;
+if (head == NULL || *head == NULL)
 return (0);
-nodedata = (*head)->n;
-new = *head;
-*head = (*head)->next;
-free(new);
-return (nodedata);
+first = *head;
+*head = first->next;
+n = first->n;
+free(first);
+return (n);
 }
