@@ -1,4 +1,5 @@
 #include "lists.h"
+#inlcue <stdlib.h>
 /**
 * free_listint2 - free's memory
 * @head: head
