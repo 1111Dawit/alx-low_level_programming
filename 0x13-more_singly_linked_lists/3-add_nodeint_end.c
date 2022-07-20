@@ -23,7 +23,7 @@ if (*head == NULL)
 return (new);
 }
 temp = *head;
-while (temp-> != NULL)
+while (temp->next != NULL)
 temp = temp->next;
 temp->next = new;
 return (new);
