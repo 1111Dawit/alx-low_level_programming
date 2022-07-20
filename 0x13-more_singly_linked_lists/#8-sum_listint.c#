@@ -16,3 +16,4 @@ head = head->next;
 }
 return (total);
 }
+8-sum_listint.c
