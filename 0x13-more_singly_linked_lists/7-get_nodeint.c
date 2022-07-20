@@ -18,4 +18,3 @@ return (NULL);
 }
 return (head);
 }
-7-get_nodeint.c
