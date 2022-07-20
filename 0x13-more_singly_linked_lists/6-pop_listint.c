@@ -1,20 +1,19 @@
 #include "lists.h"
 #inlcue <stdlib.h>
 /**
-* free_listint2 - free's memory
+* pop-listint - Delete the end
 * @head: head
 * Return: 0
 */
-void free_listint2(listint_t **head)
+int pop_listint(listint_t **head)
 {
-listint_t *first;
-int n;
-if (head == NULL || *head == NULL)
+int nodedata;
+listint_t *new;
+if (*head == NULL)
 return (0);
-first = *head;
-*head = first->next;
-n = first->n;
-free(first);
-return (n);
-}
+nodedata = (*head)->n;
+new = *head;
+*head = (*head)->next;
+free(new);
+return (nodedata);
 }
