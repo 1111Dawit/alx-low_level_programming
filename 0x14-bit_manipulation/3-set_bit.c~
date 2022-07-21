@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+ * set_bit - Entry point
+ * @n: input
+ * @index: index
+ * Return: 0
+ */
+int set_bit(uns)
