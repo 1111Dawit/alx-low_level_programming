@@ -91,7 +91,7 @@ int main(int ac, char *av[])
     if (lenw == -1 || lenw != lenr)
       return (write_err(file_from, file_to, av[2]));
   }
-  while (lenr == 1024);
+  while (lenr == 1024)
   err = close_errchk(file_from);
   err += close_errchk(file_to);
   if (err != 0)
