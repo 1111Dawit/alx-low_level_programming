@@ -6,9 +6,9 @@
 #include <fcntl.h>
 #include <stdio.h>
 /**
- * close_errch - closes a file descriptor and prints
- * an error message if it fails
- * @fd: file descriptor to close
+* close_errch - closes a file descriptor and prints
+* an error message if it fails
+* @fd: file descriptor to close
  * Return: 0 on success, -1 on failure
  */
 int close_errichk(int fd)
