@@ -5,9 +5,9 @@
 #include <fcntl.h>
 #include <stdlib.h>
 /**
-* read_textfile - prints text from a file
+* create_file - creates a file and puts text in it
 * @filename: name of the file
-* @letters: number of charcters to read
+* @text_content: text to put into file
 * Return: actual number of letters read else return 0
 */
 ssize_t read_textfile(const char *filename, size_t letters)
