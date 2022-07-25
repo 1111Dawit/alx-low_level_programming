@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <unistdlh>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+/**
+ * append_text
