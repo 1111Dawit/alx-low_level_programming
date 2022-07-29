@@ -11,7 +11,7 @@
 * @fd: file descriptor to close
  * Return: 0 on success, -1 on failure
  */
-int close_errichk(int fd)
+int close_errchk(int fd)
 {
   int err;
   err = close(fd);
