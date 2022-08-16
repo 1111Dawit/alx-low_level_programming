@@ -18,11 +18,11 @@ for (i = 1; i <= 100; i++)
 {
 if (i == 100)
 printf("%s", b);
-elseif ((i % 3 == 0) && (i % 5 == 0))
+ else if ((i % 3 == 0) && (i % 5 == 0))
 printf("%s ", fb);
-elseif (i % 3 == 0)
+ else if (i % 3 == 0)
 printf("%s ", f);
-elseif (i % 5 == 0)
+ else if (i % 5 == 0)
 printf("%s ", b);
 else
 printf("%d ", i);
