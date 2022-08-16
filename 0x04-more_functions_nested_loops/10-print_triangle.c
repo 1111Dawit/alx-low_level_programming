@@ -2,7 +2,7 @@
 /**
 * print_triangle - prints a triangle of size
 * @size: size of triangle
-* Return: void
+* Return: nothing
 */
 void print_triangle(int size)
 {
@@ -14,7 +14,7 @@ for (j = 1; j <= size; j++)
 if (j >= 1)
 _putchar('#');
 else
-_putchar('#');
+_putchar(' ');
 _putchar('\n');
 }
 else
